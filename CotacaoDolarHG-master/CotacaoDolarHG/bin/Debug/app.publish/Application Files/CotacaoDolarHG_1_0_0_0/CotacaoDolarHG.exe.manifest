@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CotacaoDolarHG.exe" version="1.0.0.0" publicKeyToken="82e345cff4b45479" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CotacaoDolarHG" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CotacaoDolarHG.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CotacaoDolarHG.exe" size="13288">
+      <assemblyIdentity name="CotacaoDolarHG" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nrtOJnSjmTPfBdGMBuwbnYQMRV9nkJiTzVh5mhafQ9s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CotacaoDolarHG.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IC3B330\Otavio" issuerKeyHash="b84e6f5c7035249238c3fcd3c4e82f6bbe2a3ab1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c6wxClX+BHd+rNhmgACLzGmXHv9hY6+gTbEt3tvrzr0=</DigestValue></Reference></SignedInfo><SignatureValue>T0L50MOJPSPPSKZe7KTq4TZtyC+jxLOLUVFmVJLKs65rGK39tbQCaypGfKOgPSvEM69JpRYXx06BLJeg5nJG4c45zzWPvPzpl79rDmSiPAvvqIseOQEuw66CHYav+8rjxT2EOqM18VA64iplHepPbDLdRTe0q5XK9lH9LstB8sI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vGTwutSbNmwLDilVxnYSY8uGHYouGfVyHFjUAwH/IdZ4SI12K/IwKggTRArZMPb+CSqKSPCOpvTL3ofPVtmLwTUItMku9HrYISyM4bKf3fIj9SVDLkoW56nKUQQXDlaeGSQ/5qwtNf+/VHTIFKRNRRF/59tob0Zou1sZ6v0UUS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bdceebdbde2db14da0af6361ff1e9769cc8b008066d8ac7e7704fe550a31ac73" Description="" Url=""><as:assemblyIdentity name="CotacaoDolarHG.exe" version="1.0.0.0" publicKeyToken="82e345cff4b45479" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IC3B330\Otavio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b6tGwXJY8L9700SSB63Mo4hplTx/NB5w50FLSNiwOAk=</DigestValue></Reference></SignedInfo><SignatureValue>mlwiwA0BGDl2k77qJ/ieXacPjfqY4dCzJCiaZW1hr85NwfTmfh5EZp+iaPEroGWXuVLahrD9BjElNAUbgqfx6OuLvFmTwyqI3rLw98sMRz33EIwvzvmNb0uMYXlBEthHUpfXtaJZ8gu5nAEH6NnlRqGUX/B9ABBdOSvl7DQT8kY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vGTwutSbNmwLDilVxnYSY8uGHYouGfVyHFjUAwH/IdZ4SI12K/IwKggTRArZMPb+CSqKSPCOpvTL3ofPVtmLwTUItMku9HrYISyM4bKf3fIj9SVDLkoW56nKUQQXDlaeGSQ/5qwtNf+/VHTIFKRNRRF/59tob0Zou1sZ6v0UUS0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQaTiK7o6t3ZVOxpcLqAGS/zANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEkAQwAzAEIAMwAzADAAXABPAHQAYQB2AGkAbzAeFw0yMjEwMjExMDQ1NTZaFw0yMzEwMjExNjQ1NTZaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ASQBDADMAQgAzADMAMABcAE8AdABhAHYAaQBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8ZPC61Js2bAsOKVXGdhJjy4Ydii4Z9XIcWNQDAf8h1nhIjXYr8jAqCBNECtkw9v4JKopI8I6m9Mveh89W2YvBNQi0yS70etghLIzhsp/d8iP1JUMuShbnqcpRBBcOVp4ZJD/mrC01/79UdMgUpE1FEX/n22hvRmi7Wxnq/RRRLQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFZj9i2FiFOmBp244jVNKPF89EH58PDrr1jYNgdg8IaLd7EKlk9NgfE8MP3jPHKc4YLZGQWTDxocFhVFKIbriSC6RJIMdXjaT27OccH1Fs9uMNGV938Gn62M0IEshGBgiWFwg6C2dQAYXPuOQ0YzI+93mClczfMgZnnfYzukYTRS</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
